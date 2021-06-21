@@ -11,14 +11,10 @@ header {
 
 
 body {
-   background-color: #F9C48B;
+   background-color: #F9C48B;;
    color: white;
 }
 
-.marginContenidoCentro {
-   margin-right: 20px;
-   margin-left: 20px;
-}
 
 /* Footer */
 footer {
@@ -203,13 +199,13 @@ footer {
 .titulosPrincipales {
    color:slategrey;
    text-decoration: underline;
-   padding-top: 30px;
+   padding-top: 1rem;
    font-size: 1.2rem;
+   text-align: center;
 }
 
 .titulos {
    color:slategrey;
-   text-decoration: underline;
    padding-top: 30px;
    font-size: 1.1rem;
 }
@@ -308,42 +304,63 @@ section#tareas {
    display: flex;
    flex-direction: column;
    justify-content: space-around;
+   text-align: center;
+   margin-bottom: 50px;
 }
 
-.servicios {
-   margin: 20px;
-   margin-bottom: 50px;
+.div__section__div__servicios {
+   display: flex;
+   align-items: center;
+   margin: 5px;
+}
 
+.div__section__div__img__servicios {
+   width: 90px;
+   height: 90px;
+
+}
+
+.servicios__lista {
+   margin-top: 1rem;
+   margin-right: 1rem;
+   text-align: initial;
 }
 
 .servicios__lista__item {
    margin-top: 20px;
-   font-size: 0.85rem;
+   font-size: 0.65rem;
    margin-left: 10px;
-   display: block;
 }
 
-.servicios__lista {
-   margin-top: 20px;
-   background-image: linear-gradient(to bottom, #F9C48B, #b1aaa5f1);
-}
+
 /* Fin Página Servicios */
 
 /* Página Trabajos */
+
+.div__trabajos {
+   display: inline-block;
+   text-align: center;
+}
+
 .grillaTrabajos {
    display: grid;
-   grid-template-columns: 90px auto 90px;
-   grid-template-rows: 30px 75px 75px 75px;
-   grid-gap: 5px;
-   margin: 20px;
-   max-width: 400px;
+   grid-template-columns: 25% auto 25%;
+   grid-column-gap: 5px;
+   grid-row-gap: 25px;
+   text-align: center;
+   align-items: center;
    font-size: 0.8rem;
+   margin-top: 2rem;
+   margin-bottom: 3rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
 }
 
 .cuadroTitulos {
    background: #e4b582e6;
    text-align: center;
    font-weight: bold;
+   height: 2.5rem;
 }
 
 .cuadroTexto {
@@ -353,55 +370,109 @@ section#tareas {
 /* Fin Página Trabajos */
 
 /* Página Novedades */
-.contenedorNovedades__video {
-   width:85%;
-   max-width: 500px;
-   height: 15rem;
-   padding: 20px;
+
+.div__novedades {
+   margin-right: 1rem;
+   margin-left: 1rem;
+   text-align: center;
+}
+
+.div__p__novedades {
+   font-size: 0.75rem;
+}
+
+.div__section__div__novedades {
+   display: flex;
+   align-items: center;
+   width: 90%;
+   text-align: start;
+   margin-top: 2.5rem;
+   margin-bottom: 2.5rem;
+
+
+}
+
+.div__section__div__p__novedades {
+   max-width: 4.5rem;
+   font-size: 0.65rem;
+   line-height: 0.75rem;
+}
+
+.div__section__div__video__novedades {
+   width: 90%;
+   height: 100%;
+   padding: 1.5rem;
 }
 /* Fin Página Novedades */
 
 /*Página Contacto*/
 
-   /* Apartado Datos Estudio Contacto*/
-   .datosEstudioContacto {
-       width: 80%;
-       max-width: 600px;
-       border: solid 2px rgb(151, 144, 144);
-       margin: 20px;
-       padding: 5px;
-   }
 
-   .mapaContacto {
-       width: 100%;
-       margin-top: 10px;
-       margin-bottom: 30px;
-   }
+.div__contacto {
+   display: inline-block;
+   text-align: center;
+   width: 100%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
 
-   /* Apartado Contactanos*/    
-   .datosEstudioContactanos {
-       width: 80%;
-       max-width: 600px;
-       border: solid 2px rgb(151, 144, 144);
-       margin: 20px;
-       padding: 5px;
-       font-size: 1rem;
-   }
+.div__section__contacto {
+   margin: 5px;
+   padding: 5px;
+   text-align: center;
+   align-content: center;
+   align-items: start;
+   display:flex;
+}
 
-   .formularioContacto {
-       padding: 10px;
-       margin: 10px;
-   }
+.div__section__h3__contacto {
+   font-size: 0.9rem;
+   max-width: 30%;
+   color:slategrey;
+   margin-right: 8px;
+}
 
-   .itemsFormulario {
-       padding-top:15px;
-       display: inline-block;
-       width: 100%;
-   }
+.div__section__div__contacto {
+   width: 60%;
+   max-width: 300px;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-top-style: solid;
+   border-color: rgb(151, 144, 144);
+   margin: 5px;
+   padding: 5px;
+   font-size: 0.8rem;
+}
 
-   .campoRellenoFormulario {
-       width: 100%;
-   }
+.div__section__div__titulos__contacto {
+   color:slategrey;
+   text-decoration: underline;
+   padding-top: 30px;
+   font-size: 0.8rem;
+}
+
+.mapaContacto {
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+
+.form__contacto {
+   padding: 10px;
+   margin: 10px;
+}
+
+.form__item__contacto {
+   padding-top:15px;
+   display: inline-block;
+   width: 100%;
+}
+
+.form__relleno__contacto {
+   width: 100%;
+}
+
+
 
 /* Fin Formato página Contacto */
 
@@ -478,7 +549,7 @@ section#tareas {
 
 /* Títulos de todas las páginas */
 .titulosPrincipales {
-   font-size: 1.4rem;
+   font-size: 1.3rem;
 }
 
 .titulos {
@@ -526,30 +597,88 @@ header {
 /*Fin Página Home */
 
 /* Página Servicios */
+
+.servicios__lista {
+   width: 80%;
+   margin-right: 30px;
+
+}
+
 .servicios__lista__item {
    font-size: 0.95rem;
 }
+
+
+
+
 /* Fin Página Servicios */
 
 
 /* Página Trabajos */
+
+.div__trabajos {
+   width: 100%;
+}
+
 .grillaTrabajos {
-   max-width: 600px;
    font-size: 0.9rem;
+   justify-content: center;
 }
 /* Fin Página Trabajos */
 
 /* Página Novedades */
-.contenedorNovedades__video {
+
+.div__p__novedades {
+   font-size: 0.9rem;
+}
+
+.div__section__div__novedades {
+margin-right: 2.5rem;
+margin-left: 2.5rem;
+margin-top: 3rem;
+margin-bottom: 3rem;}
+
+.div__section__div__p__novedades {
+   font-size: 0.9rem;
+   line-height: 1rem;
+   max-width: 6.25rem;
+}
+
+
+.div__section__div__video__novedades {
   height: 20rem;
 }
 /* Fin Página Novedades */
+
+/*Página Contacto*/
+
+.div__contacto {
+   display: flex;
+   text-align: center;
+   width: 100%;
+}
+
+.div__section__h3__contacto {
+   font-size: 1.1rem;
+   max-width: 35%;
+}
+
+.div__section__div__contacto {
+   height: 100%;
+   font-size: 1rem;
+
+}
+
+.div__section__contacto {
+   align-items: start;
+}
 
 }
 
 /* Media 1024 */
 @media only screen and (min-width: 1024px)
 {
+
 
 /* Header */
 
@@ -598,6 +727,25 @@ header {
 }
 /*Fin Página Home*/
 
+
+/*Página Servicios*/
+
+.servicios__lista {
+   display: inline-grid ;
+}
+
+.servicios__lista__item {
+   font-size: 1.2rem;
+}
+
+.div__section__div__img__servicios {
+   width: 130px;
+   height: 130px;
+}
+
+/*Fin Página Servicios*/
+
+
 /* Página Trabajos */
 .grillaTrabajos {
    font-size: 1rem;
@@ -605,11 +753,23 @@ header {
 /* Fin Página Trabajos */
 
 /* Página Novedades */
-.contenedorNovedades__video {
+
+.div__p__novedades {
+   font-size: 1.15rem;
+}
+
+.div__section__div__video__novedades {
    height: 30rem;
-   max-width: 700px;
 }
 /*Fin Página Novedades*/
+
+/* Página Contacto */
+
+.div__contacto {
+   display: flex;
+   text-align: center;
+   width: 100%;
+}
 
 }
 
