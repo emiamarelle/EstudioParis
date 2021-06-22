@@ -17,6 +17,7 @@ body {
 
 
 /* Footer */
+
 footer {
    background-color: #ee8a4c;
    color: rgba(255, 255, 255, 0.521);
@@ -24,30 +25,34 @@ footer {
    text-align: start;
 }
 
-.contenedorFooter {
-   display: flex;
-   justify-content: space-around; 
+.footer__div {
+   display: inline-block;
    font-size: 0.6rem;
-   align-items: center;
 }
 
-.contenedorFooter__item {
+.footer__div__contacto {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.footer__div__arriba {
+   margin-bottom: 2rem;
+}
+
+.footer__div__item {
    margin-top: 10px;
    margin-bottom: 10px;
 }
 
-.contenedorFooter__item__contenido {
+.footer__div__item__contenido {
    margin: 0rem;
 }
 
-.contenedorFooter__item__contenido__mapa {
+.footer__div__item__contenido__mapa {
    width: 7.5rem;
    height: 3.75rem;
 }
 
-.contenedorFooter__redes {
-   width: 30%;
-}
 
 /* Fin Footer */
 
@@ -248,7 +253,7 @@ header {
    width: 100%;
 }
 
-#footer {
+footer {
    grid-area: footer;
    text-align: center;
    width: 100%;
@@ -463,6 +468,38 @@ header {
 /* Media 768 */
 @media only screen and (min-width: 768px)
 {
+
+/* Footer */
+
+.footer__div {
+   font-size: 0.9rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 5px;
+   margin-left: 5px;
+
+}
+
+.footer__div__redes {
+   align-items: center;
+   margin-right: 4rem;
+   margin-left: 4rem;
+
+
+}
+
+.footer__div__contacto {
+   align-items: center;
+   margin-right: 4rem;
+   margin-left: 4rem;
+}
+
+.footer__div__arriba {
+   align-items: center;
+   margin-right: 4rem;
+   margin-left: 4rem;
+}
 
 /* Header */
 
