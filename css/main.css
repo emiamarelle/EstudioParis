@@ -525,7 +525,8 @@ footer {
     font-size: 1rem; }
   .div__section__contacto {
     align-items: start;
-    justify-content: center; } }
+    justify-content: center;
+    width: 100%; } }
 
 /* Media 1024 */
 @media only screen and (min-width: 1024px) {
@@ -555,9 +556,9 @@ footer {
     grid-template-areas: "header header header" ". imagenA ." "iconoA iconoA iconoA" ". slogan ." ". imagenB ." "footer footer footer";
     justify-items: center; }
   #imagenA {
-    max-width: 50rem; }
+    max-width: 45rem; }
   #imagenB {
-    max-width: 50rem; }
+    max-width: 45rem; }
   /*Fin Página Home*/
   /*Página Servicios*/
   .servicios__lista {

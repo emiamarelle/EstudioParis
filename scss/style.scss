@@ -426,6 +426,7 @@ footer {
    align-content: center;
    align-items: start;
    display:flex;
+
 }
 
 .div__section__h3__contacto {
@@ -718,6 +719,8 @@ header {
 .div__section__contacto {
    align-items: start;
    justify-content: center;
+   width: 100%;
+
 }
 
 }
@@ -778,11 +781,11 @@ header {
 }
 
 #imagenA {
-   max-width: 50rem;
+   max-width: 45rem;
 }
 
 #imagenB {
-   max-width: 50rem;
+   max-width: 45rem;
 }
 
 /*Fin Página Home*/
