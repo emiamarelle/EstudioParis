@@ -12,7 +12,7 @@ header {
 
 body {
    background-color: #F9C48B;;
-   color: white;
+   color: #656565;
 }
 
 
@@ -20,7 +20,7 @@ body {
 
 footer {
    background-color: #ee8a4c;
-   color: rgba(255, 255, 255, 0.521);
+   color: white;
    font-size: 11px;
    text-align: start;
 }
@@ -96,6 +96,7 @@ footer {
 
 .dropdown-item {
    color: white;
+   font-size: 0.5rem;
 }
 
 /* Fin header Home Menu */
@@ -222,7 +223,7 @@ footer {
 
 /* Títulos de todas las páginas */
 .titulosPrincipales {
-   color:slategrey;
+   color:rgb(87, 93, 99);
    text-decoration: underline;
    padding-top: 1rem;
    font-size: 1.2rem;
@@ -230,9 +231,10 @@ footer {
 }
 
 .titulos {
-   color:slategrey;
+   color:rgb(87, 93, 99);
    padding-top: 30px;
    font-size: 1.1rem;
+   font-weight: bold;
 }
 /* Fin Títulos de todas las páginas */
 
@@ -286,6 +288,8 @@ footer {
    width: 100%;
    height: 100%;
    align-self: center;
+   color: #656565;
+   font-weight: bold ;
 }
 
 #imagenB {
@@ -314,6 +318,11 @@ footer {
    width: 4.5rem;
    height: 4.5rem;
    margin-top: 1rem;
+
+}
+
+.div__section__div__info__contacto {
+   color: white;
 
 }
 
@@ -422,7 +431,7 @@ footer {
 .div__section__h3__contacto {
    font-size: 0.9rem;
    max-width: 30%;
-   color:slategrey;
+   color:rgb(87, 93, 99);
    margin-right: 8px;
 }
 
@@ -439,7 +448,7 @@ footer {
 }
 
 .div__section__div__titulos__contacto {
-   color:slategrey;
+   color:rgb(87, 93, 99);
    text-decoration: underline;
    padding-top: 30px;
    font-size: 0.8rem;
@@ -481,8 +490,8 @@ footer {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-right: 5px;
-   margin-left: 5px;
+   margin-right: 25px;
+   margin-left: 25px;
 
 }
 
@@ -557,6 +566,8 @@ footer {
       font-size: 1.15rem;
    }
 
+  
+
    /* Fin Menú Home */
 
    /* Menú*/
@@ -596,15 +607,15 @@ header {
 }
 
 #imagenA {
-   height: 25rem;
+   height: 27rem;
 }
 
 #imagenB {
-   height: 25rem;
+   height: 27rem;
 }
 
 #slogan {
-   font-size: 1.2rem;
+   font-size: 1.1rem;
 }
 
 #iconoA {
@@ -667,6 +678,7 @@ header {
    margin-left: 2.5rem;
    margin-top: 3rem;
    margin-bottom: 3rem;
+   justify-content: center;
 }
 
 .div__section__div__p__novedades {
@@ -689,6 +701,7 @@ header {
    display: flex;
    text-align: center;
    width: 100%;
+   justify-content: center;
 }
 
 .div__section__h3__contacto {
@@ -704,6 +717,7 @@ header {
 
 .div__section__contacto {
    align-items: start;
+   justify-content: center;
 }
 
 }
@@ -759,9 +773,17 @@ header {
        ". slogan ."
        ". imagenB ."
        "footer footer footer";
+   justify-items: center;
 
 }
 
+#imagenA {
+   max-width: 50rem;
+}
+
+#imagenB {
+   max-width: 50rem;
+}
 
 /*Fin Página Home*/
 

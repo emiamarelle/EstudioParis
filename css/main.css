@@ -10,12 +10,12 @@ header {
 
 body {
   background-color: #F9C48B;
-  color: white; }
+  color: #656565; }
 
 /* Footer */
 footer {
   background-color: #ee8a4c;
-  color: rgba(255, 255, 255, 0.521);
+  color: white;
   font-size: 11px;
   text-align: start; }
 
@@ -78,7 +78,8 @@ footer {
   color: white; }
 
 .dropdown-item {
-  color: white; }
+  color: white;
+  font-size: 0.5rem; }
 
 /* Fin header Home Menu */
 /* Header */
@@ -182,16 +183,17 @@ a {
 /* Fin Header */
 /* Títulos de todas las páginas */
 .titulosPrincipales {
-  color: slategrey;
+  color: #575d63;
   text-decoration: underline;
   padding-top: 1rem;
   font-size: 1.2rem;
   text-align: center; }
 
 .titulos {
-  color: slategrey;
+  color: #575d63;
   padding-top: 30px;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  font-weight: bold; }
 
 /* Fin Títulos de todas las páginas */
 /* Página Home */
@@ -231,7 +233,9 @@ footer {
   padding: 2rem;
   width: 100%;
   height: 100%;
-  align-self: center; }
+  align-self: center;
+  color: #656565;
+  font-weight: bold; }
 
 #imagenB {
   grid-area: imagenB;
@@ -255,6 +259,9 @@ footer {
   width: 4.5rem;
   height: 4.5rem;
   margin-top: 1rem; }
+
+.div__section__div__info__contacto {
+  color: white; }
 
 .servicios__lista {
   margin-top: 1rem;
@@ -342,7 +349,7 @@ footer {
 .div__section__h3__contacto {
   font-size: 0.9rem;
   max-width: 30%;
-  color: slategrey;
+  color: #575d63;
   margin-right: 8px; }
 
 .div__section__div__contacto {
@@ -357,7 +364,7 @@ footer {
   font-size: 0.8rem; }
 
 .div__section__div__titulos__contacto {
-  color: slategrey;
+  color: #575d63;
   text-decoration: underline;
   padding-top: 30px;
   font-size: 0.8rem; }
@@ -388,8 +395,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 5px;
-    margin-left: 5px; }
+    margin-right: 25px;
+    margin-left: 25px; }
   .footer__div__redes {
     display: inline-block;
     align-items: center;
@@ -454,11 +461,11 @@ footer {
   header {
     height: 200px; }
   #imagenA {
-    height: 25rem; }
+    height: 27rem; }
   #imagenB {
-    height: 25rem; }
+    height: 27rem; }
   #slogan {
-    font-size: 1.2rem; }
+    font-size: 1.1rem; }
   #iconoA {
     width: 100%; }
   /*Fin Página Home */
@@ -493,7 +500,8 @@ footer {
     margin-right: 2.5rem;
     margin-left: 2.5rem;
     margin-top: 3rem;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    justify-content: center; }
   .div__section__div__p__novedades {
     font-size: 0.9rem;
     line-height: 1.3;
@@ -507,7 +515,8 @@ footer {
   .div__contacto {
     display: flex;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    justify-content: center; }
   .div__section__h3__contacto {
     font-size: 1.1rem;
     max-width: 35%; }
@@ -515,7 +524,8 @@ footer {
     height: 100%;
     font-size: 1rem; }
   .div__section__contacto {
-    align-items: start; } }
+    align-items: start;
+    justify-content: center; } }
 
 /* Media 1024 */
 @media only screen and (min-width: 1024px) {
@@ -542,7 +552,12 @@ footer {
   /* Fin Header */
   /*Página Home*/
   #grillaHome {
-    grid-template-areas: "header header header" ". imagenA ." "iconoA iconoA iconoA" ". slogan ." ". imagenB ." "footer footer footer"; }
+    grid-template-areas: "header header header" ". imagenA ." "iconoA iconoA iconoA" ". slogan ." ". imagenB ." "footer footer footer";
+    justify-items: center; }
+  #imagenA {
+    max-width: 50rem; }
+  #imagenB {
+    max-width: 50rem; }
   /*Fin Página Home*/
   /*Página Servicios*/
   .servicios__lista {
